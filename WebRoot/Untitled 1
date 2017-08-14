@@ -1,0 +1,5 @@
+在springmvc项目中要严格区分静态的html和动态的jsp
+如果使用了struts这类的web框架，就要将struts中的核心交给spring管理
+使用了InternalResourceViewResolver可以将动态页面以静态页面的方式进行呈现，防止别人直接知道你使用的服务器技术
+在进行用户信息的验证时，从数据库取数据前，要先进行validate，可以利用注解的方式，在dao文件中直接应用javaee6提供的注解
+进行限制，然后在spring中利用注解的方式进行校验
